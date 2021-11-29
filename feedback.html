@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback Form</title>
+    <link rel="icon" href="My Gal. Pic 1.jpeg">
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body>
+    <h1>Feedback</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Travel Blog.html">Travels</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="NFL Table.html">NFL Table</a>
+        <a href="feedback.html">Feedback</a>
+        </nav>
+    <form action="mailto:dhruv.ajjarapu@icloud.com?subject=~PLEASE CLICK ON SEND TO ENTER YOUR FEEDBACK~" method = 'post' enctype="text/plain">
+        <label for="fname">
+            First Name:
+        </label>
+        <input type="text" id = "fname" name = "fname" placeholder = "Enter Your First Name">
+        <br>
+        <br>
+        <label for="lname">
+            Last Name:
+        </label>
+        <input type="text" id = "lname" name = "lname" placeholder = "Enter Your Last Name">
+        <br>
+        <br>
+        <fieldset>
+            <legend>
+            Gender:
+            </legend>
+            <label for="male">
+                Male ->
+            </label>
+            <input type="radio" name = 'gender' id = 'male'>
+            <br>
+            <label for="female">
+                Female ->
+            </label>
+            <input type="radio" name = 'gender' id = 'female'>
+            <br>
+            <label for="other">
+                Other ->
+            </label>
+            <input type="radio" name = 'gender' id = 'other'>
+            <br>
+            <label for="RNS">
+                Rather not say ->
+            </label>
+            <input type="radio" name = 'gender' id = 'RNS'>
+        </fieldset>
+        <br>
+        <br>
+        <label for="email">
+           Email ID
+        </label>
+        <input type="email" name = 'email' id = 'email'>
+        <br>
+        <br>
+        <fieldset>
+            <legend>
+                How did you find out about my webpage?
+            </legend>
+            <br>
+            <label for="Internet">
+                Internet ->
+            </label>
+            <input type="checkbox" value="Internet" name = 'info' id='Internet'>
+            <br>
+            <label for="Friends">
+                Friends ->
+            </label>
+            <input type="checkbox" value="Friends" name = 'info' id='Friends'>
+            <br>
+            <label for="Browsing">
+                Browsing ->
+            </label>
+            <input type="checkbox" value="Browsing" name = 'info' id='Browsing'>
+            <br>
+            <label for="Social Media">
+                Social Media ->
+            </label>
+            <input type="checkbox" value="Social Media" name = 'info' id='Social Media'>
+          </fieldset>
+          <br>
+          <br>
+          <fieldset>
+              <legend>
+                  Please rate my Webpage
+              </legend>
+              <select name="rating" id="rating">
+                  <option value="5 Star" name = "5 Star" id = "5 Star"> 
+                    5 Star (Amazing Webpage)
+                  </option>
+                  <option value="4 Star" name = "4 Star" id = "4 Star" >
+                    4 Star (Good Webpage)
+                  </option>
+                  <option value="3 Star" name = "3 Star" id = "3 Star" >
+                    3 Star (Okay Webpage)
+                </option>
+                <option value="2 Star" name = "2 Star" id = "2 Star" >
+                    2 Star (Poor Webpage)
+                </option>
+                <option value="1 Star" name = "1 Star" id = "1 Star" >
+                    1 Star (Bad Webpage)
+                </option>
+              </select>
+          </fieldset>
+          <br>
+          <br>
+          <fieldset>
+              <legend>
+                 Any Suggestions/Improvements?
+              </legend>
+              <textarea name="suggestions" id="suggestions" cols="30" rows="10">Please Enter Suggestions Here</textarea>
+          </fieldset>
+          <input type="submit" value = 'submit'>
+        
+       
+    </form>
+</body>
+</html>
