@@ -1,0 +1,21 @@
+nav{
+    width: 98%;
+    margin: auto;
+}
+nav a{
+    background-color: #777DA7;
+    color: white;
+    font-size: 1.2vw;
+    margin: 1%;
+    padding: 1%;
+    border-radius:5% 10%;
+    display: inline-flex;
+    transition: 1s ease-in-out;
+      
+}
+nav a:hover{
+    transform: scale(1.5) translate(2px, 2px) skew(2deg, 2deg);
+    color: white;
+    box-shadow: whitesmoke 5px 5px 5px;
+    
+}
